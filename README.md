@@ -91,11 +91,7 @@ All React components are in `src/components/`. Edit them to customize the look a
 
 ## 🚀 Deployment
 
-### Deploy to Vercel
-```bash
-npm install -g vercel
-vercel
-```
+
 
 ### Deploy to Netlify
 ```bash
@@ -114,4 +110,4 @@ This project is private and for personal use.
 
 ---
 
-**Author**: Huzaif Ahmed - Full Stack Developer
+**Author**: Farhan minaj ansari - Full Stack Developer
