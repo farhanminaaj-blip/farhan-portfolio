@@ -41,8 +41,8 @@ export const PROJECTS = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB'],
     image: lumenScreenshot,
     slug: 'lumen-dashboard',
-    githubLink: '#',
-    previewUrl: '../dashboard/html/dashboard.html',
+    githubLink: 'https://github.com/farhanminaaj-blip/eccomerce-dashboard-fronend.git',
+    previewUrl: 'https://lunem-dashboard.netlify.app',
     backend: {
       entry: 'server.js',
       description: 'REST API built with Node.js and Express, authentication with JWT and bcrypt, data persisted using MongoDB via Mongoose.',
