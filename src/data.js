@@ -2,6 +2,8 @@
 
 // place your screenshot in src/assets/ and then import it
 import lumenScreenshot from "./assets/lumen-dashboard.png";
+import phpEcommerceScreenshot from "./assets/image.png";
+import aiCareerScreenshot from "./assets/Ai.png";
 
 export const AUTHOR = {
   _id: 'author-1',
@@ -9,7 +11,7 @@ export const AUTHOR = {
   initials: 'FM',
   avatar: 'https://i.pinimg.com/736x/45/c9/30/45c930089bd6991ac39e475423a1bb61.jpg',
   description: 'I build web that builds brands.',
-  summary: "I'm a full-stack developer with expertise in React, Next.js, Node.js, and MongoDB. I love creating modern, responsive web applications with a focus on user experience and performance. Currently working as a Frontend Developer at SelectSkillSet, I bring experience from my previous role as a Full Stack Developer at Tekisky.",
+  summary: "I'm a full-stack developer with expertise in React, Node.js, and MongoDB. I love creating modern, responsive web applications with a focus on user experience and performance. Currently working as a Frontend Developer at SelectSkillSet, I bring experience from my previous role as a Full Stack Developer at Rockford .",
   location: '_',
   skills: [
     'HTML',
@@ -52,25 +54,25 @@ export const PROJECTS = [
   },
   {
     _id: 'project-2',
-    title: 'Ecommerce Application (PHP)',
-    description: 'Developed a full-stack ecommerce web application using PHP and MySQL. Responsibilities included user authentication (login/registration), product catalog management, admin dashboard with CRUD operations, and image upload handling. Implemented secure password storage and session-based login, and ensured responsive design. This project was built as part of my role at [Your Company] where I handled backend development and database design.',
-    shortDescription: 'PHP & MySQL ecommerce site with admin panel and user authentication.',
-    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=500&h=500&fit=crop',
-    slug: 'php-ecommerce-app',
-    githubLink: '#',
-    previewUrl: '#'
+    title: 'AI Career Assistant',
+    description: 'An AI-powered web application that helps developers transform their GitHub commits and repositories into professional, recruiter-ready LinkedIn posts. Features include GitHub integration, post generation, user authentication, dashboard with analytics, post history tracking, and a modern responsive UI built with React and Tailwind CSS.',
+    shortDescription: 'AI-powered tool that converts GitHub work into professional LinkedIn posts for developers.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+    image: aiCareerScreenshot,
+    slug: 'ai-career-assistant',
+    githubLink: 'https://github.com/farhanminaaj-blip/ai-career-assisant-react.git',
+    previewUrl: 'https://ai-career-assistantt.netlify.app'
   },
 
   {
     _id: 'project-3',
-    title: 'Blockchain Voting System',
-    description: 'A secure, transparent, and decentralized voting platform built on Ethereum. Features smart contract-based voting, anonymous ballots, real-time result tracking, and immutable audit trails. Ensures election integrity through cryptographic verification.',
-    shortDescription: 'A secure, transparent, and decentralized voting platform built on Ethereum with smart contract-based voting and real-time tracking.',
-    technologies: ['Solidity', 'Web3.js', 'React', 'Ethereum', 'IPFS', 'MetaMask'],
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f70259b51?w=500&h=500&fit=crop',
-    slug: 'blockchain-voting-system',
-    githubLink: '#',
-    previewUrl: '#'
+    title: 'Ecommerce Application (PHP)',
+    description: 'Built a full-stack PHP/MySQL ecommerce platform with customer login/registration, session-based shopping cart, and a responsive storefront. Implemented product catalog display, quick-buy checkout, and an admin dashboard for CRUD product management with image upload support. Managed user sessions, cart updates, order flow, and backend database operations in a LAMP-ready architecture.',
+    shortDescription: 'PHP/MySQL ecommerce platform with cart workflow and admin product management.',
+    technologies: ['PHP', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
+    image: phpEcommerceScreenshot,
+    slug: 'php-ecommerce-app',
+    githubLink: 'https://github.com/farhanminaaj-blip/php-ecomerse-store',
+    previewUrl: 'on process'
   }
 ]
