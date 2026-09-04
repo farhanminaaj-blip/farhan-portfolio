@@ -198,12 +198,14 @@ function Footer() {
               <span>Bundled with Vite</span>
             </div>
             <div className="flex items-center gap-3">
+              <Sivercel classname="text-white w-6 h6"/>
+              <span>Deployed on Netfly</span>
               <SiTailwindcss className="text-blue-400 w-6 h-6" />
               <span>Styled with TailwindCSS</span>
             </div>
             <div className="flex items-center gap-3">
-              <SiVercel className="text-white w-6 h-6" />
-              <span>Deployed on Netfly
+               <SiTailwindcss className="text-blue-400 w-6 h-6" />
+              <span>Styled with TailwindCSS</span>
                 
               </span>
             </div>
