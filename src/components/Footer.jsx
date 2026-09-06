@@ -6,10 +6,18 @@ import {
   SiTailwindcss,
   SiVercel,
   SiGmail,
+  SiSpotify,
 } from 'react-icons/si'
 import { BsLinkedin } from 'react-icons/bs'
 import { AiFillHeart } from 'react-icons/ai'
-import { MdPlayArrow, MdPause } from 'react-icons/md'
+import {
+  MdAdd,
+  MdMoreHoriz,
+  MdPause,
+  MdPlayArrow,
+  MdSkipNext,
+  MdSkipPrevious,
+} from 'react-icons/md'
 
 // simple like button component
 function LikeButton() {
@@ -198,15 +206,12 @@ function Footer() {
               <span>Bundled with Vite</span>
             </div>
             <div className="flex items-center gap-3">
-              <Sivercel classname="text-white w-6 h6"/>
-              <span>Deployed on Netfly</span>
-             
+              <SiVercel className="text-white w-6 h-6" />
+              <span>Deployed on Netlify</span>
             </div>
             <div className="flex items-center gap-3">
                <SiTailwindcss className="text-blue-400 w-6 h-6" />
-              <span>Styled with TailwindCSS</span>
-                
-              </span>
+              <span>Styled with TailwindCSS</span>   
             </div>
           </div>
 
@@ -221,3 +226,4 @@ function Footer() {
 }
 
 export default Footer
+
